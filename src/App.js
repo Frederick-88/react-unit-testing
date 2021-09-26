@@ -1,5 +1,8 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from "./logo.svg";
+import "./App.css";
+import Increment from "./components/Increment";
+import ComponentWithProps from "./components/ComponentWithProps";
+import SampleFormWithApi from "./components/SampleFormWithApi";
 
 function App() {
   return (
@@ -18,6 +21,13 @@ function App() {
           Learn React
         </a>
       </header>
+
+      <Increment />
+      <ComponentWithProps />
+      <ComponentWithProps title="hey bro" />
+      <ComponentWithProps title={0} />
+      <br />
+      <SampleFormWithApi />
     </div>
   );
 }
