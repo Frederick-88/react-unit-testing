@@ -11,10 +11,15 @@ export default function SimpleForm() {
     }
   };
 
+  const isEmptyFormResult = () => {
+    return !name;
+  };
+
   return (
     <section>
       <label htmlFor="name">Your Name</label>
       <input
+        data-testid="form-input"
         type="text"
         id="name"
         name="name"
@@ -22,9 +27,23 @@ export default function SimpleForm() {
         value={text}
         onChange={(e) => setText(e.target.value)}
       />
-      <button onClick={changeName}>submit</button>
+      <button data-testid="form-submit-button" onClick={changeName}>
+        submit
+      </button>
 
-      <h1 data-testid="form-result">hello my name is {name ? name : ""}</h1>
+      <br />
+      <p>The Line will show red if there is no any submitted form</p>
+      <hr
+        data-testid="form-line"
+        style={{ borderColor: isEmptyFormResult() ? "red" : "lightgreen" }}
+      />
+
+      <h1
+        className={isEmptyFormResult() ? "form-result--hidden" : ""}
+        data-testid="form-result"
+      >
+        hello my name is {name ? name : ""}
+      </h1>
     </section>
   );
 }

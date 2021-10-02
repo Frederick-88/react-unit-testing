@@ -3,6 +3,7 @@ import "./App.css";
 import Increment from "./components/Increment";
 import ComponentWithProps from "./components/ComponentWithProps";
 import SampleFormWithApi from "./components/SampleFormWithApi";
+import FormComponent from "./components/FormComponent";
 
 function App() {
   return (
@@ -22,10 +23,11 @@ function App() {
         </a>
       </header>
 
+      <FormComponent />
+      <br />
       <Increment />
       <ComponentWithProps />
       <ComponentWithProps title="hey bro" />
-      <ComponentWithProps title={0} />
       <br />
       <SampleFormWithApi />
     </div>
