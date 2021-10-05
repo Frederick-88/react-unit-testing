@@ -1,3 +1,23 @@
+## React-Unit-Testing
+
+### Testing Demonstration Here Includes :
+
+- Basic Component Test
+- Styling & Conditional Class Test
+- Props of Component Test
+- Form Test
+- React Redux Test (coming-soon)
+- API Call Text
+
+### Sources :
+
+- https://testing-library.com/docs/queries/bytestid/
+- https://yudikrisnandi.netlify.app/blog/react-testing-dengan-react-testing-library/
+- `npm test -- --coverage` to see coverage result -> https://scotch.io/tutorials/testing-react-and-redux-apps-with-jest
+- react redux testing tutorial -> https://medium.com/netscape/testing-a-react-redux-app-using-jest-and-enzyme-b349324803a9
+- react redux testing github example ( tested the repo, the tests are working ) -> https://github.com/vaskort/react-testing
+- Javascript Unit Testing Blog -> https://medium.com/powtoon-engineering/a-complete-guide-to-testing-javascript-in-2017-a217b4cd5a2a
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
