@@ -2,12 +2,12 @@
 
 ### Testing Demonstration Here Includes :
 
-- Basic Component Test
-- Styling & Conditional Class Test
-- Props of Component Test
-- Form Test
-- React Redux Test (coming-soon)
-- API Call Text
+- Basic Component Test ( Increment.js )
+- Styling & Conditional Class Test ( FormComponent.js )
+- Props of Component Test ( ComponentWithProps.js )
+- Form Test ( FormComponent.js )
+- React Redux Test ( coming-soon )
+- API Call Test ( SampleFormWithApi.js )
 
 ### Sources :
 
